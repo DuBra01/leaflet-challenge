@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  padding: 10px;
+  line-height: 18px;
+  background: white;
+  color: #333;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  width: 160px;
+}
+
+.legend h4 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.legend div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 8px;
+  border-radius: 3px;
+  opacity: 0.85;
+}
+
+.update-time {
+  padding: 8px 10px;
+  line-height: 16px;
+  background: white;
+  color: #333;
+  font-size: 13px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  width: 140px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.update-time hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 6px 0;
+}
