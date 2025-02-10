@@ -8,8 +8,8 @@ let basemap = L.tileLayer(
 
 // Initialize the map with center and zoom
 let map = L.map("map", {
-  center: [40.7, -94.5], // USA-centered view
-  zoom: 5,
+  center: [34.0522, -118.2437], // Los Angeles-centered view
+  zoom: 4,
   layers: [basemap] // Set the initial base map layer
 });
 
