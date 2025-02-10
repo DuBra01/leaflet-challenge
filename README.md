@@ -1,31 +1,32 @@
 # leaflet-challenge
- 🌍 Earthquake & Tectonic Plate Visualization - README 📖
+# 🌍 Earthquake Data Visualization with Leaflet 🌎
 
-This project is a real-time interactive map built with Leaflet.js, displaying earthquakes from the past 7 days and tectonic plate boundaries. The data is fetched dynamically from the United States Geological Survey (USGS) API and the Tectonic Plate Boundaries dataset.
-📌 Features
+## 🔹 Overview
+This project uses **Leaflet.js** and **D3.js** to visualize real-time earthquake data from the **USGS GeoJSON API**.
 
-✔ Real-time Earthquake Updates – Fetches the latest earthquakes every 10 minutes.
-✔ Tectonic Plate Boundaries – Displays global tectonic plate data.
-✔ Multiple Base Maps – Choose between Topographic, Street, and Satellite maps.
-✔ Dynamic Earthquake Markers – Size and color vary based on magnitude and depth.
-✔ Legend & Last Update Time – Shows earthquake depth colors and latest update timestamp.
-✔ Interactive Popups – Click on an earthquake marker to see location, magnitude, and depth.
-✔ Layer Control – Toggle Earthquakes and Tectonic Plates on/off.
-🛠️ Technologies Used
+👉 **Live Demo:** [Click Here](https://DuBra01.github.io/leaflet-challenge/)
 
-    •    📍 Leaflet.js – For interactive map rendering.
-    •    📡 USGS Earthquake API – Provides real-time earthquake data.
-    •    🌐 GeoJSON – For tectonic plate boundaries visualization.
-    •    🖥️ JavaScript (ES6+), HTML, CSS – Frontend technologies.
-🔗 Data Sources
+## 🛠️ Technologies Used
+- **Leaflet.js** → Interactive maps
+- **D3.js** → Fetching and parsing GeoJSON data
+- **HTML, CSS, JavaScript** → Frontend development
+- **GitHub Pages** → Live deployment
 
-    •    🌍 USGS Earthquake Data:
-https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
-    •    🌎 Tectonic Plates Data:
-https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
-📦 Project Directory
- ┣ 📜 index.html      # Main HTML file (Map Container)
- ┣ 📜 logic.js        # JavaScript logic (Data Fetching, Leaflet Map)
- ┣ 📜 style.css       # CSS Styles
- ┣ 📜 README.md       # Documentation (This File)
- 
+## 📌 Features
+✅ **Real-time Earthquake Data** → Updates every 10 minutes  
+✅ **Interactive Map** → Click on markers for earthquake details  
+✅ **Layer Controls** → Toggle earthquakes and tectonic plates  
+✅ **Legend** → Color-coded depth scale  
+
+## 📖 How to Use
+1. **Visit the Live Page:** [Click Here](https://DuBra01.github.io/leaflet-challenge/)
+2. **Explore the Map:** Pan & zoom to view different areas.
+3. **Click on Markers:** See details like magnitude, depth, and location.
+4. **Toggle Layers:** Use the top-right control to show/hide earthquakes and tectonic plates.
+
+## 📂 Folder Structure
+📂 leaflet-challenge
+┣ 📜 index.html   # Main HTML file
+┣ 📜 logic.js     # JavaScript logic (data fetching & map setup)
+┣ 📜 style.css    # CSS styles
+┣ 📜 README.md    # Documentation (this file)
