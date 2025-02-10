@@ -13,7 +13,7 @@ This project uses **Leaflet.js** and **D3.js** to visualize real-time earthquake
 - **GitHub Pages** → Live deployment
 
 ## 📌 Features
-✅ **Real-time Earthquake Data** → Updates every 10 minutes  
+✅ Real-time Earthquake Data → Updates every minute  
 ✅ **Interactive Map** → Click on markers for earthquake details  
 ✅ **Layer Controls** → Toggle earthquakes and tectonic plates  
 ✅ **Legend** → Color-coded depth scale  
