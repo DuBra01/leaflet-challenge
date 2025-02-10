@@ -201,11 +201,13 @@ function getEarthquakeData() {
               pointToLayer: (feature, latlng) => L.circleMarker(latlng),
               style: styleInfo,
               onEachFeature: (feature, layer) => {
-                  layer.bindPopup(
-                      `<strong>Location:</strong> ${feature.properties.place}<br>
-                       <strong>Magnitude:</strong> ${feature.properties.mag}<br>
-                       <strong>Depth:</strong> ${feature.geometry.coordinates[2]} km`
-                  );
+                layer.bindPopup(
+                    `<h3>📍 ${feature.properties.place}</h3>
+                     <hr>
+                     <p><strong>Magnitude:</strong> ${feature.properties.mag}</p>
+                     <p><strong>Depth:</strong> ${feature.geometry.coordinates[2]} km</p>
+                     <p><strong>Time:</strong> ${new Date(feature.properties.time).toLocaleString()}</p>`
+                );
               }
           }).addTo(earthquakeLayer);
 
